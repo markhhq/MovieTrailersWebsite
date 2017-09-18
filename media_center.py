@@ -151,7 +151,7 @@ antman =  media.Movie(data['antman']['Title'], data['antman']['Release_Date'], d
 				  data['antman']['Box_Office'], data['antman']['Plot'], data['antman']['Poster_URL'], 
 				  data['antman']['Trailer_URL'])
 
-movies = [im, im2, im3, ca, ca2, ca3, gotg, gotg2, antman]
+marvelmovies = [im, im2, im3, ca, ca2, ca3, gotg, gotg2, antman]
 	
-fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(marvelmovies)
 
